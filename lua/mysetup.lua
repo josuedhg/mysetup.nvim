@@ -3,6 +3,10 @@ M = {}
 M.config = {}
 
 function M.setup()
+
+  -- Setup nerd fonts
+  vim.g.have_nerd_font = true
+
 	-- Show relative line numbers
 	vim.wo.relativenumber = true
 
